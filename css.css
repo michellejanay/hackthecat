@@ -41,10 +41,10 @@ header {
 }
 
 /* SECOND PAGE STYLE */
-
 #logo-pg-2 {
-  height: 200px;
+  height: 150px;
   cursor: pointer;
+  position: relative;
 }
 #clicker-pg-2 {
   height: 100px;
@@ -55,14 +55,25 @@ header {
   display: flex;
   align-self: center;
   justify-content: center;
+  /* testing */
 }
 #cat-imgs {
-  background-color: black;
   padding: 0rem 2rem;
   padding-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #cats {
-  width: 500px;
-  margin: 0;
+  width: 600px;
+  max-height: 400px;
+  margin-top: -1.5rem;
+  margin-bottom: -2rem;
   padding: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#wip-cat {
+  max-width: 125px;
+  max-height: 125px;
+  align-self: end;
 }
