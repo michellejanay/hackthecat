@@ -1,57 +1,68 @@
 body {
-    background-image: url(/image/image.png);
-    font-family: 'Poppins', sans-serif;
-        font-family: 'Quicksand', sans-serif;
+  background-image: url(image/background.png);
+  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 h2 {
-    color: blueviolet;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 3em;
-    font-weight: 80px; 
+  color: blueviolet;
+  font-family: "Quicksand", sans-serif;
+  font-size: 3em;
+  font-weight: 80px;
 }
 
-#cat-imgs{
-    position: right;
-    border: 2px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black; width: 700px;
-    
-}
-#carousel{
-    height: 500px;
-    max-width: 700px;
+#logo {
+  height: 60vh;
 }
 
-#logo{
-    height: 175px;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 7rem;
 }
 
-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-right: 7rem;
+#clicker {
+  height: 25vh;
+  cursor: pointer;
 }
 
-#clicker{
-    height: 175px;
-    cursor: pointer;
-
+#clicker2 {
+  height: 50vh;
+  cursor: pointer;
 }
 
-#clicker2{
-    display: none;
+/* SECOND PAGE STYLE */
+
+#logo-pg-2 {
+  height: 200px;
+  cursor: pointer;
+}
+#clicker-pg-2 {
+  height: 100px;
+  cursor: pointer;
 }
 
-
+.cats-container {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+#cat-imgs {
+  background-color: black;
+  padding: 0rem 2rem;
+  padding-top: 0.5rem;
+}
+#cats {
+  width: 500px;
+  margin: 0;
+  padding: 0;
+}
